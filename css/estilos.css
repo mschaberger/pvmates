@@ -94,16 +94,15 @@ a{
         .navegacion{
             background: rgba(0, 0, 0, .4);
             flex: 1 1 100%;
-            height: 40px;
+            height: 60px;
             text-align: center;
             border-bottom: 1px solid rgba(255, 255, 255, .5);
+            padding: 18px;
         }
         .navegacion a{
             color:#fff;
-            font-size: 16px;
+            font-size: 20px;
             text-transform: uppercase;
-            text-align: center;
-            vertical-align:bottom;
             letter-spacing: 4px;
         }
         .navegacion a:hover{
@@ -111,7 +110,7 @@ a{
         }
         .articulos{
             display: flex;
-            flex: 1 1 auto;
+            flex: 1 1 100%;
             background: rgba(0, 0, 0, .5);
         }
             
@@ -219,4 +218,8 @@ a{
     .thumbex{
         flex-direction: column;
     }   
+    .menu{
+        height: auto;
+        padding: 15px;
+    }
 }
